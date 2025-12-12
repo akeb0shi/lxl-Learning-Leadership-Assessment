@@ -95,6 +95,7 @@ Use one of these:
 _Please note that the code refers to the files as PDFs, but the code is optimized to take image files such as .png, .jpeg, etc. When in doubt, use the link to an image_
 
 Scroll to the `finishSurvey()` function.
+
 _Quick tip: use Command+F (or Ctrl+F on windows) and type "REPLACE" to jump straight there_
 
 You will see this structure for leadership:
@@ -130,11 +131,9 @@ pdfURL = "https://your-new-link-here.pdf";
 
 ## 5. Adding New Partnership Options (About You section)
 
-Search for:
+Scroll to Line 151 where it says ✅✅✅ ADD NEW PARTNERSHIPS HERE ✅✅✅ 
+_Quick tip: use Command+F (or Ctrl+F on windows) and type "ADD NEW" to jump straight there_
 
-```html
-<select id="about_partnership">
-```
 
 You will see:
 
@@ -144,8 +143,8 @@ You will see:
 </option>
 ```
 
-### ✔ To add a new partnership  
-Paste a new line:
+### To add a new partnership  
+Paste THIS new line:
 
 ```html
 <option value="New Partnership Name">New Partnership Name</option>
