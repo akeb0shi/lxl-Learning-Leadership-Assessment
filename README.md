@@ -1,6 +1,6 @@
-# Editing Guide
+# Lead By Learning Leadership Assessment | Editing Guide
 
-This guide explains how to update the survey even for non-technical users.
+_This guide explains how to update the survey even for non-technical users with no coding experience._
 This guide shows how to:
 
 - Edit Leadership questions  
@@ -12,6 +12,12 @@ This guide shows how to:
 
 ---
 
+## CRUCIAL NOTE:
+
+In order to not break the code, be **extremely** careful to only edit text within quotation marks ("). **Never** delete quotation marks or type outside of them
+
+---
+
 ## 1. Finding the Editable Question Section
 
 Open **survey_v2.html** and scroll until you see:
@@ -19,6 +25,7 @@ Open **survey_v2.html** and scroll until you see:
 ```
 CONFIGURE SURVEY QUESTIONS HERE
 ```
+_Quick tip: use Command+F (or Ctrl+F on windows) and type "CONFIGURE" to jump straight there_
 
 This section contains everything you will edit.
 
@@ -35,17 +42,18 @@ const leadershipQuestions = [
 ];
 ```
 
-### ✔ To edit a question  
+
+### To edit a question  
 Change the text inside quotes after `text:`.
 
-### ✔ To add a question  
+### To add a question  
 Copy one line and paste underneath:
 
 ```javascript
 { text: "Your new leadership question here", type: "Learner" },
 ```
 
-### ✔ Valid Leadership Types  
+### Valid Leadership Types  
 Use one of these exactly as written:
 
 - `"Partner"`
@@ -67,14 +75,14 @@ const cultureQuestions = [
 ];
 ```
 
-### ✔ Valid Culture Types  
+### Valid Culture Types  
 Use one of these:
 
 - `"Equity"`
 - `"PublicLearning"`
 - `"SharedGoals"`
 
-### ✔ Adding or editing works the same as leadership
+### Adding or editing works the same as leadership
 
 ```javascript
 { text: "Your new culture question", type: "SharedGoals" },
@@ -87,6 +95,7 @@ Use one of these:
 _Please note that the code refers to the files as PDFs, but the code is optimized to take image files such as .png, .jpeg, etc. When in doubt, use the link to an image_
 
 Scroll to the `finishSurvey()` function.
+_Quick tip: use Command+F (or Ctrl+F on windows) and type "REPLACE" to jump straight there_
 
 You will see this structure for leadership:
 
@@ -106,14 +115,14 @@ if (cultureType === "Equity")
     pdfURL = "LINK_TO_EQUITY_PDF_OR_IMAGE";
 ```
 
-### ✔ To update images  
+### To update images  
 Replace ONLY the link:
 
 ```javascript
 pdfURL = "https://your-new-link-here.pdf";
 ```
 
-### ✔ Requirements for links  
+### Requirements for links  
 - Must be publicly accessible  
 - GitHub Pages, Google Drive (with public access), or any direct URL works  
 
