@@ -13,6 +13,8 @@ This guide shows how to:
 ## Video guide: https://youtu.be/BDVMwhgjRn0
 The video guide was made following this written guide
 
+---
+
 If when you try and edit index.html and you see "You need to fork this repository to propose changes", it means you do not have editing access to the repository. To gain access, please contact me (Dylan Kao) via Microsoft Teams or via email at kao.d@northeastern.edu . For any further questions or inquiries please don't hesitate to reach out.
 
 To embed the map in any page via html, use the link below. Visiting the link also allows you to see the full map on it's own tab (Useful for debugging/viewing changes): https://akeb0shi.github.io/lxlpartnermap/
