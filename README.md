@@ -1,7 +1,7 @@
 # Learning Leadership & Culture Survey – Editing Guide
 
-This guide explains how to update the survey even if you have **no coding experience**.  
-You will learn how to:
+This guide explains how to update the survey even for non-technical users.
+This guide shows how to:
 
 - Edit Leadership questions  
 - Edit Adult Learning Culture questions  
@@ -9,8 +9,6 @@ You will learn how to:
 - Change which result type (Partner, Learner, Visionary, etc.) a question belongs to  
 - Change the PDF images shown at the end  
 - Add new partnership sites in the About You section  
-
-All edits happen in **one file: `survey_v2.html`**.
 
 ---
 
@@ -172,8 +170,6 @@ A similar process happens for culture:
 - PublicLearning  
 - SharedGoals  
 
-### **Tie-breaking**
-If two categories have the same score, the system selects the first highest based on a built-in priority order.
 
 ---
 
@@ -204,15 +200,16 @@ You do **not** need to touch anything else.
 { text: "Question goes here", type: "TypeName" },
 ```
 
-- Do NOT remove the comma at the end of each line (except the last one).  
-- Type names must match exactly.
+- Do NOT remove the comma at the end of each line (except the last one).
+- The last question **never** has a comma at the end of the line
+- Type names must match exactly and are case sensitive. 
 
 ---
 
 ## 9. If You Need Help
 
-For help adding new result types, changing scoring rules, or redesigning the page, contact a technical team member.  
-This file is designed so most meaningful updates can be made without any coding background.
+For help adding new result types, changing scoring rules, or redesigning the page, contact me (Dylan Kao) on teams or via email at kao.d@northeastern.edu.  
+This file is designed such that meaningful updates can be made without any coding background.
 
 ---
 
