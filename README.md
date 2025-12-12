@@ -11,7 +11,7 @@ This guide shows how to:
 - Add new partnership sites in the About You section
 
 ## Video guide: https://youtu.be/BDVMwhgjRn0
-The video guide was made following this written guide
+The video guide was made following this written guide in-order. If you are confused in any part of the written description, please refer to the timestamp in the header and go there on the video. 
 
 ---
 
@@ -32,7 +32,7 @@ In order to not break the code, be **extremely** careful to only edit text withi
 
 ---
 
-## 1. Finding the Editable Question Section
+## 1. Finding the Editable Question Section (1:10)
 
 Open **survey_v2.html** and scroll until you see:
 
@@ -45,7 +45,7 @@ This section contains everything you will edit.
 
 ---
 
-## 2. Editing Leadership Questions
+## 2: Editing Leadership Questions (1:10)
 
 Leadership questions are stored here:
 
@@ -60,7 +60,7 @@ const leadershipQuestions = [
 ### To edit a question  
 Change the text inside quotes after `text:`.
 
-### To add a question  
+### To add a question  (2:25)
 Copy one line and paste underneath:
 
 ```javascript
@@ -78,7 +78,7 @@ The type determines which PDF result the user receives.
 
 ---
 
-## 3. Editing Culture Questions
+## 3. Editing Culture Questions (1:10)
 
 Culture questions appear below leadership:
 
@@ -96,7 +96,7 @@ Use one of these:
 - `"PublicLearning"`
 - `"SharedGoals"`
 
-### Adding or editing works the same as leadership
+### Adding or editing works the same as leadership (2:25)
 
 ```javascript
 { text: "Your new culture question", type: "SharedGoals" },
@@ -104,7 +104,7 @@ Use one of these:
 
 ---
 
-## 4. Changing Which Image Appears at the End
+## 4. Changing Which Image Appears at the End (3:44)
 
 _Please note that the code refers to the files as PDFs, but the code is optimized to take image files such as .png, .jpeg, etc. When in doubt, use the link to an image_
 
@@ -143,7 +143,7 @@ pdfURL = "https://your-new-link-here.pdf";
 
 ---
 
-## 5. Adding New Partnership Options (About You section)
+## 5. Adding New Partnership Options (About You section) (5:00)
 
 Scroll to Line 151 where it says ✅✅✅ ADD NEW PARTNERSHIPS HERE ✅✅✅ 
 _Quick tip: use Command+F (or Ctrl+F on windows) and type "ADD NEW" to jump straight there_
@@ -197,7 +197,7 @@ A similar process happens for culture:
 
 ---
 
-## 7. Editing the Downloaded Word Document Output
+## 7. Editing the Downloaded Word Document Output (6:55)
 
 Search for this function:
 
