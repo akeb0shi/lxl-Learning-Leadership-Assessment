@@ -387,6 +387,8 @@ function finishSurvey() {
     if (selectedLeadership) {
         const winningType = getWinningLeadershipType();
 
+
+        // REPLACE LEADERSHIP IMAGES HERE
         let pdfURL = "";
         if (winningType === "Partner") pdfURL = "https://leadbylearning.sites.northeastern.edu/files/2025/12/PARTNER-Leader-Self-Assessment-Profiles.png";
         if (winningType === "Learner") pdfURL = "https://leadbylearning.sites.northeastern.edu/files/2025/12/LEARNER-Leader-Self-Assessment-Profiles.png";
@@ -401,7 +403,7 @@ function finishSurvey() {
         const cultureType = getWinningCultureType();
         let pdfURL = "";
 
-
+        // REPLACE CULTURE IMAGES HERE
         if (cultureType === "Equity")
             pdfURL = "https://leadbylearning.sites.northeastern.edu/files/2025/12/CommmitmentToEquity.png";
 
