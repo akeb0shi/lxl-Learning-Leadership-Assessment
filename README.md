@@ -82,7 +82,9 @@ Use one of these:
 
 ---
 
-## 4. Changing Which PDF Appears for Each Type
+## 4. Changing Which Image Appears at the End
+
+_Please note that the code refers to the files as PDFs, but the code is optimized to take image files such as .png, .jpeg, etc. When in doubt, use the link to an image_
 
 Scroll to the `finishSurvey()` function.
 
@@ -104,7 +106,7 @@ if (cultureType === "Equity")
     pdfURL = "LINK_TO_EQUITY_PDF_OR_IMAGE";
 ```
 
-### ✔ To update PDF images  
+### ✔ To update images  
 Replace ONLY the link:
 
 ```javascript
