@@ -8,7 +8,9 @@ This guide shows how to:
 - Add new questions  
 - Change which result type (Partner, Learner, Visionary, etc.) a question belongs to  
 - Change the PDF images shown at the end  
-- Add new partnership sites in the About You section  
+- Add new partnership sites in the About You section
+
+If when you try and edit index.html and you see "You need to fork this repository to propose changes", it means you do not have editing access to the repository. To gain access, please contact me (Dylan Kao) via Microsoft Teams or via email at kao.d@northeastern.edu . For any further questions or inquiries please don't hesitate to reach out.
 
 ---
 
