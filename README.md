@@ -10,7 +10,17 @@ This guide shows how to:
 - Change the PDF images shown at the end  
 - Add new partnership sites in the About You section
 
+## Video guide: https://youtu.be/BDVMwhgjRn0
+The video guide was made following this written guide
+
 If when you try and edit index.html and you see "You need to fork this repository to propose changes", it means you do not have editing access to the repository. To gain access, please contact me (Dylan Kao) via Microsoft Teams or via email at kao.d@northeastern.edu . For any further questions or inquiries please don't hesitate to reach out.
+
+To embed the map in any page via html, use the link below. Visiting the link also allows you to see the full map on it's own tab (Useful for debugging/viewing changes): https://akeb0shi.github.io/lxlpartnermap/
+
+### To access the link to the website:
+
+Go to Settings, Then in the "Code and automation" section the last option you will see "Pages". In this page you can see the link to the website and the last time it was updated. Sometimes after pushing the code pages can take up to 5-10 minutes to deploy the actual site and this page is a useful tool to see if the site has actually updated or not. 
+
 
 ---
 
