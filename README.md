@@ -115,12 +115,9 @@ _Quick tip: use Command+F (or Ctrl+F on windows) and type "REPLACE" to jump stra
 You will see this structure for leadership:
 
 ```javascript
-if (winningType === "Partner")
-    pdfURL = "LINK_TO_PARTNER_PDF_OR_IMAGE";
-if (winningType === "Learner")
-    pdfURL = "LINK_TO_LEARNER_PDF_OR_IMAGE";
-if (winningType === "Visionary")
-    pdfURL = "LINK_TO_VISIONARY_PDF_OR_IMAGE";
+if (winningType === "Partner") pdfURL = "LINK_TO_PARTNER_PDF_OR_IMAGE";
+if (winningType === "Learner") pdfURL = "LINK_TO_LEARNER_PDF_OR_IMAGE";
+if (winningType === "Visionary") pdfURL = "LINK_TO_VISIONARY_PDF_OR_IMAGE";
 ```
 
 And for culture:
