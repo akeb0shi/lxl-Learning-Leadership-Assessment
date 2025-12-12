@@ -1,4 +1,4 @@
-# Learning Leadership & Culture Survey – Editing Guide
+# Editing Guide
 
 This guide explains how to update the survey even for non-technical users.
 This guide shows how to:
